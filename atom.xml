@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>火柴er</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wtao.ren/"/>
+  <updated>2017-02-06T01:08:01.998Z</updated>
+  <id>http://wtao.ren/</id>
+  
+  <author>
+    <name>wtao</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2017，随想随记</title>
+    <link href="http://wtao.ren/2017/02/05/2017%EF%BC%8C%E9%9A%8F%E6%84%8F%E5%B1%95%E6%9C%9B/"/>
+    <id>http://wtao.ren/2017/02/05/2017，随意展望/</id>
+    <published>2017-02-04T20:04:29.000Z</published>
+    <updated>2017-02-06T01:08:01.998Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>一眨眼的功夫，对于我，春节已然过完了。</p>
+<p>刚刚从老家返回工作岗位，趁着工作节奏还不太快，赶紧把博客重新拾起来。新的一年，希望自己不再像以前那么多拖延症。<br><a id="more"></a><br>关于此博客的主题，一直没想好。索性，有啥想写的就写啥吧。大杂烩也挺好的。只要行动起来了，就只管朝前走吧！</p>
+<p><img src="/uploads/hello2017.jpg" style="display : block ;margin : auto ;" alt="你好，2017"></p>
+<p>但是，真正开始写了，发现也没多少可以写的话题。比如下面就是完完全全的天马行空碎碎念……：</p>
+<blockquote>
+<ul>
+<li>Evernote（印象笔记）竟然限制使用设备的台数了，除非交money！顿时不想继续用了。白瞎我攒了好久的资料了。导入有道云笔记时竟然还失败好多篇。。。索性不要了，谁怕谁！</li>
+</ul>
+</blockquote>
+<hr>
+<blockquote>
+<ul>
+<li>说实话，从老家带的家乡食物，吃起来特别香。可惜快吃完了……</li>
+</ul>
+</blockquote>
+<hr>
+<blockquote>
+<ul>
+<li>这几天突发奇想，想弄个小机器人玩玩。嗯，先看看有啥好用的电路板。</li>
+</ul>
+</blockquote>
+<hr>
+<blockquote>
+<ul>
+<li>一口气看完三季《硅谷》，苦盼着第四季。上网一查，剧中的Pied Piper公司竟然还真有个网站！并且，完全就是互联网公司网站的风格，简直业界良心！剧中几位主人公的大头照也挂在首页，还真像那么回事！果断将网址放入本站的友情链接~</li>
+</ul>
+</blockquote>
+<hr>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="280" height="52" src="//music.163.com/outchain/player?type=2&id=33162226&auto=0&height=32"></iframe>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一眨眼的功夫，对于我，春节已然过完了。&lt;/p&gt;
+&lt;p&gt;刚刚从老家返回工作岗位，趁着工作节奏还不太快，赶紧把博客重新拾起来。新的一年，希望自己不再像以前那么多拖延症。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="2017" scheme="http://wtao.ren/tags/2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Hexo</title>
+    <link href="http://wtao.ren/2017/02/03/hello-world/"/>
+    <id>http://wtao.ren/2017/02/03/hello-world/</id>
+    <published>2017-02-02T20:04:29.000Z</published>
+    <updated>2017-02-06T02:42:37.943Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
