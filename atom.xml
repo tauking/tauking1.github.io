@@ -22,7 +22,7 @@
     <published>2017-02-06T07:23:45.000Z</published>
     <updated>2017-02-06T08:02:09.952Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p>今天在另一台电脑上修改博客内容后执行<code>hexo d</code>时，提示如下警告信息：<br><a id="more"></a><br><img src="/uploads/QQ20170206134805.png" style="display : block ;margin : auto ;" alt="回车换行符错误"><br>虽然没有报错信息，可以正常部署。但总是觉得不太爽。于是从网上找到解决方案如下：</p>
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>今天在另一台电脑上修改博客内容后执行<code>hexo d</code>时，提示如下警告信息：<br><a id="more"></a><br><img src="/uploads/QQ20170206134805.png" style="display : block ;margin : auto ;" alt="回车换行符错误"><br>虽然没有报错信息，可以正常部署。但总是觉得不太爽。于是从网上找到解决方案如下：</p>
 <blockquote>
 <ul>
 <li>删除你hexo 下面的.deploy_git文件夹</li>
