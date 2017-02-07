@@ -1,5 +1,12 @@
-# robots.txt
-User-agent: Baiduspider
+# hexo robots.txt
+User-agent: * Allow: /
 Allow: /posts/*
-User-agent: Googlebot
-Disallow:
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: http://lancelot_lewis.coding.me/sitemap.xml
+Sitemap: http://lancelot_lewis.coding.me/baidusitemap.xml
