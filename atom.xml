@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wtao.ren/"/>
-  <updated>2017-02-07T03:07:42.646Z</updated>
+  <updated>2017-02-07T15:26:03.171Z</updated>
   <id>http://wtao.ren/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo中使用B站播放器插件</title>
+    <link href="http://wtao.ren/posts/7/"/>
+    <id>http://wtao.ren/posts/7/</id>
+    <published>2017-02-07T14:17:22.000Z</published>
+    <updated>2017-02-07T15:26:03.171Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>闲来无事，尝试用B站播放器插件播放B站视频。</p>
+<p>视频插件太多了，为什么选择B站？我哪知道……可能主要是因为没广告吧。依惯例，先安装插件：<a id="more"></a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install --save hexo-tag-bilibili</div></pre></td></tr></table></figure></p>
+<p>安装成功后，尝试在文章中写个B站视频播放器的标签：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% bilibili [av_id] %&#125;</div></pre></td></tr></table></figure></p>
+<p>或者<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% bilibili [av_id] [page] %&#125;</div></pre></td></tr></table></figure></p>
+<p>其中，av_id代表视频编号，page代表页数。如<em><a href="http://www.bilibili.com/video/av3079493/index_3.html" target="_blank" rel="external">http://www.bilibili.com/video/av3079493/index_3.html</a></em>中，编号是3079493，页数是3。</p>
+<p>播放器被一个class等于<strong>bili_video</strong>的div包裹，如果要修改显示样式，可以在主题目录下的css文件中设置。</p>
+<p>例如：我选择在主题下的<em>source\css_common\scaffolding\base.styl</em>中添加如下代码，使B站播放器居中显示。<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.bili_video</span> &gt; <span class="selector-tag">embed</span>&#123;</div><div class="line">  <span class="attribute">display </span>: block ;</div><div class="line">  <span class="attribute">margin </span>: auto ;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<hr>
+<p>示例：战斗方块剧场的第一关攻略视频：<br><div class="bili_video"><embed height="500" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://share.acg.tv/flash.swf" flashvars="aid=3079493&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></div></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;闲来无事，尝试用B站播放器插件播放B站视频。&lt;/p&gt;
+&lt;p&gt;视频插件太多了，为什么选择B站？我哪知道……可能主要是因为没广告吧。依惯例，先安装插件：
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://wtao.ren/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>解决hexo提交文章时回车换行符的问题</title>

@@ -322,6 +322,10 @@ dd {
   margin: 0;
   padding: 0;
 }
+.bili_video > embed {
+  display: block;
+  margin: auto;
+}
 .text-left {
   text-align: left;
 }
@@ -1685,7 +1689,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff;
+  background: #ff6261;
 }
 .links-of-blogroll {
   font-size: 13px;
