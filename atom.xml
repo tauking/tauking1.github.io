@@ -22,7 +22,7 @@
     <published>2017-02-06T07:23:45.000Z</published>
     <updated>2017-02-07T03:07:42.646Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>今天在另一台电脑上修改博客内容后执行<code>hexo d</code>时，提示如下警告信息：</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p>今天在另一台电脑上修改博客内容后执行<code>hexo d</code>时，提示如下警告信息：</p>
 <a id="more"></a>
 <p><img src="/uploads/QQ20170206134805.png" style="display : block ;margin : auto ;" alt="回车换行符错误"><br>虽然没有报错信息，可以正常部署。但总是觉得不太爽。于是从网上找到解决方案如下：<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
 <blockquote>
@@ -94,7 +94,7 @@
     <published>2017-02-04T20:04:29.000Z</published>
     <updated>2017-02-06T15:43:29.941Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>一眨眼的功夫，对于我，春节已然过完了。</p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p>一眨眼的功夫，对于我，春节已然过完了。</p>
 <p>刚刚从老家返回工作岗位，趁着工作节奏还不太快，赶紧把博客重新拾起来。新的一年，希望自己不再像以前那么多拖延症。<br><a id="more"></a><br>关于此博客的主题，一直没想好。索性，有啥想写的就写啥吧。大杂烩也挺好的。只要行动起来了，就只管朝前走吧！</p>
 <p><img src="/uploads/hello2017.jpg" style="display : block ;margin : auto ;" alt="你好，2017"></p>
 <p>但是，真正开始写了，发现也没多少可以写的话题。比如下面就是完完全全的天马行空碎碎念……：</p>
@@ -144,7 +144,7 @@
     <published>2017-02-02T20:04:29.000Z</published>
     <updated>2017-02-06T15:43:29.943Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><script src="/assets/js/DPlayer.min.js"> </script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
