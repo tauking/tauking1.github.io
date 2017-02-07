@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>http://wtao.ren/posts/55016/</loc>
+    <lastmod>2017-02-07T03:07:42.646Z</lastmod>
+    <data>
+        <display>
+        <title>解决hexo提交文章时回车换行符的问题</title>
+        <pubTime>2017-02-06T07:23:45.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>git</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://wtao.ren/posts/7251/</loc>
     <lastmod>2017-02-06T15:43:29.943Z</lastmod>
     <data>
@@ -29,25 +48,6 @@
         <pubTime>2017-02-04T20:04:29.000Z</pubTime>
         
         <tag>2017</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://wtao.ren/posts/55016/</loc>
-    <lastmod>2017-02-06T15:42:56.117Z</lastmod>
-    <data>
-        <display>
-        <title>解决hexo提交文章时回车换行符的问题</title>
-        <pubTime>2017-02-06T07:23:45.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>git</tag>
          
          
            

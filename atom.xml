@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wtao.ren/"/>
-  <updated>2017-02-06T15:42:56.117Z</updated>
+  <updated>2017-02-07T03:07:42.646Z</updated>
   <id>http://wtao.ren/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://wtao.ren/posts/55016/"/>
     <id>http://wtao.ren/posts/55016/</id>
     <published>2017-02-06T07:23:45.000Z</published>
-    <updated>2017-02-06T15:42:56.117Z</updated>
+    <updated>2017-02-07T03:07:42.646Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>今天在另一台电脑上修改博客内容后执行<code>hexo d</code>时，提示如下警告信息：</p>
 <a id="more"></a>
@@ -59,9 +59,10 @@
 </tbody>
 </table>
 <p>在不同的操作系统这几个字符表现不同，比如在WIN系统下，这两个字符就是表现的本义，在UNIX类系统，<code>\n</code>就表现为光标下一行并回到行首，在MAC上，<code>\r</code>就表现为回到本行开头并往下一行，至于<code>ENTER</code>键的定义是与操作系统有关的。通常用的<code>Enter</code>是两个加起来。</p>
-<p>至于为什么搞得这么复杂还有个故事（点击下方内容查看）：</p>
-<span class="spoiler"><strong> 在计算机还没有出现之前，有一种叫做电传打字机（Teletype Model 33）的玩意，每秒钟可以打10个字符。但是它有一个问题，就是打完一行换行的时候，要用去0.2秒，正好可以打两个字符。要是在这0.2秒里面，又有新的字符传过来，那么这个字符将丢失。于是，研制人员想了个办法解决这个问题，就是在每行后面加两个表示结束的字符。一个叫做“回车”，告诉打字机把打印头定位在左边界；另一个叫做“换行”，告诉打字机把纸向下移一行。这就是“换行”和“回车”的来历，从它们的英语名字上也可以看出一二。后来，计算机发明了，这两个概念也就被般到了计算机上。那时，存储器很贵，一些科学家认为在每行结尾加两个字符太浪费了，加一个就可以。于是，就出现了分歧。</strong>
-</span>
+<p>至于为什么搞得这么复杂,还有个故事：</p>
+<ul>
+<li>在计算机还没有出现之前，有一种叫做电传打字机（Teletype Model 33）的玩意，每秒钟可以打10个字符。但是它有一个问题，就是打完一行换行的时候，要用去0.2秒，正好可以打两个字符。要是在这0.2秒里面，又有新的字符传过来，那么这个字符将丢失。于是，研制人员想了个办法解决这个问题，就是在每行后面加两个表示结束的字符。一个叫做“回车”，告诉打字机把打印头定位在左边界；另一个叫做“换行”，告诉打字机把纸向下移一行。这就是“换行”和“回车”的来历，从它们的英语名字上也可以看出一二。后来，计算机发明了，这两个概念也就被般到了计算机上。那时，存储器很贵，一些科学家认为在每行结尾加两个字符太浪费了，加一个就可以。于是，就出现了分歧。*</li>
+</ul>
 <h2 id="关于git中的回车换行配置"><a href="#关于git中的回车换行配置" class="headerlink" title="关于git中的回车换行配置"></a>关于git中的回车换行配置</h2><p>关于回车换行，再回到git配置文件的设置中来。对<code>autocrlf</code>（提交时是否进行转换）和<code>safecrlf</code>（提交时是否进行安全验证）进行相应的设置。</p>
 <h3 id="AutoCRLF"><a href="#AutoCRLF" class="headerlink" title="AutoCRLF"></a>AutoCRLF</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#提交时转换为LF，检出时转换为CRLF</span></div><div class="line">$ git config --global core.autocrlf <span class="literal">true</span>   </div><div class="line"></div><div class="line"><span class="comment">#提交时转换为LF，检出时不转换</span></div><div class="line">$ git config --global core.autocrlf input   </div><div class="line"></div><div class="line"><span class="comment">#提交检出均不转换</span></div><div class="line">$ git config --global core.autocrlf <span class="literal">false</span></div></pre></td></tr></table></figure>
 <h3 id="SafeCRLF"><a href="#SafeCRLF" class="headerlink" title="SafeCRLF"></a>SafeCRLF</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#拒绝提交包含混合换行符的文件</span></div><div class="line">git config --global core.safecrlf <span class="literal">true</span></div><div class="line"></div><div class="line"><span class="comment">#允许提交包含混合换行符的文件</span></div><div class="line">git config --global core.safecrlf <span class="literal">false</span>   </div><div class="line"></div><div class="line"><span class="comment">#提交包含混合换行符的文件时给出警告</span></div><div class="line">git config --global core.safecrlf warn</div></pre></td></tr></table></figure>
