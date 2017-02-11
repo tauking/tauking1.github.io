@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wtao.ren/"/>
-  <updated>2017-02-08T03:04:13.476Z</updated>
+  <updated>2017-02-08T15:17:21.474Z</updated>
   <id>http://wtao.ren/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://wtao.ren/posts/7/"/>
     <id>http://wtao.ren/posts/7/</id>
     <published>2017-02-07T15:17:22.000Z</published>
-    <updated>2017-02-08T03:04:13.476Z</updated>
+    <updated>2017-02-08T15:17:21.474Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>闲来无事，尝试用B站播放器插件播放B站视频。</p>
 <p>视频插件太多了，为什么选择B站？我哪知道……可能主要是因为没广告吧。依惯例，先安装插件：<a id="more"></a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install --save hexo-tag-bilibili</div></pre></td></tr></table></figure></p>
